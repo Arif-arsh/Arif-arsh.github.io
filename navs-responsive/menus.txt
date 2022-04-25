@@ -1,0 +1,127 @@
+HTML | <link> media Attribute
+The HTML link media attribute is used to specify what media/device the target resource is optimized for. This attribute used to specify a different style for different media type.
+The media attribute can accept several values.
+
+Syntax:<link media="value">
+----------------------------------------------------------
+CSS clip Property
+Definition and Usage
+What happens if an image is larger than its containing element?
+
+The clip property lets you specify a rectangle to clip an absolutely positioned element. The rectangle is specified as four coordinates, all from the top-left corner of the element to be clipped.
+
+Note: The clip property does not work if "overflow:visible".
+
+Note: The clip property is deprecated and will be replaced by the clip-path property in the future.
+----------------------------------------------------------
+CSS position Property
+absolute	The element is positioned relative to its first positioned (not static) ancestor element
+------------------------------------------------------------
+HSL Colors
+HSL color values are supported in IE9+, Firefox, Chrome, Safari, and in Opera 10+.
+HSL stands for hue, saturation, and lightness.
+HSL color values are specified with: hsl(hue, saturation, lightness).
+Hue
+Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.
+
+Saturation
+Saturation is a percentage value; 0% means a shade of gray and 100% is the full color.
+
+Lightness
+Lightness is also a percentage; 0% is black, 100% is white.
+-----------------------------------------------------------------
+margin : A shorthand property for setting all the margin properties in one declaration.
+----------------------------------------------------------------
+@media querry  :/* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 600px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+--------------------------------------------------------------
+clear: none|left|right|both|initial|inherit;
+both	The element is pushed below both left and right floated elements
+Definition and Usage
+The clear property controls the flow next to floated elements.
+
+The clear property specifies what should happen with the element that is next to a floating element.
+------------------------------------------------------------
+The box-shadow property attaches one or more shadows to an element.
+CSS Syntax
+box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+------------------------------------------------------------
+clip
+The clip CSS property defines a visible portion of an element. The clip property applies only to absolutely positioned elements — that is, elements with position:absolute or position:fixed.
+------------------------------------------------------------
+CSS display Property
+The display property specifies the display behavior (the type of rendering box) of an element.
+
+In HTML, the default display property value is taken from the HTML specifications or from the browser/user default style sheet. The default value in XML is inline, including SVG elements.
+block	Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+--------------------------------------------------------------
+CSS line-height Property
+The line-height property specifies the height of a line.
+---------------------------------------------------------------
+CSS top Property
+The top property affects the vertical position of a positioned element. This property has no effect on non-positioned elements.
+
+If position: absolute; or position: fixed; - the top property sets the top edge of an element to a unit above/below the top edge of its nearest positioned ancestor.
+If position: relative; - the top property makes the element's top edge to move above/below its normal position.
+If position: sticky; - the top property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
+If position: static; - the top property has no effect.
+CSS z-index Property
+The z-index property specifies the stack order of an element.
+
+An element with greater stack order is always in front of an element with a lower stack order.
+
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+
+Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+auto	Sets the stack order equal to its parents. This is default
+------------------------------------------------------------
+HTML <main> Tag
+The <main> tag specifies the main content of a document.
+
+The content inside the <main> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+
+Note: There must not be more than one <main> element in a document. The <main> element must NOT be a descendant of an <article>, <aside>, <footer>, <header>, or <nav> element.
+---------------------------------------------------------
+HTML <section> Tag
+The <section> tag defines a section in a document.
+--------------------------------------------------------
+flex	Displays an element as a block-level flex container
+----------------------------------------------------------
+CSS flex-wrap Property
+The flex-wrap property specifies whether the flexible items should wrap or not.
+
+Note: If the elements are not flexible items, the flex-wrap property has no effect.
+--------------------------------------------------------------
+space-between	Items will have space between them
+-------------------------------------------------------
+The <span> tag is an inline container used to mark up a part of a text, or a part of a document. The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+--------------------------------------------------------------
+position: relative;
+An element with position: relative; is positioned relative to its normal position.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+---------------------------------------------------------
+overflow: hidden
+https://www.w3schools.com/css/css_overflow.asp
+-----------------------------------------------------------
+aria-expanded html attribute
+The attribute doesn't change anything in regards to the visual representation of an element: "When authors use collapsible content, for example, to hide navigation menus or lists of content, the triggering link or button should indicate to screen reader users whether the collapsable content below is in the expanded or in the collapsed state. The aria-expanded attribute is used for this purpose.
+---------------------------------------------------
+CSS content Property
+https://www.w3schools.com/cssref/pr_gen_content.asp
+-----------------------------------------------------
+content property in CSS
+content: "\f107"
+https://stackoverflow.com/questions/20210514/content-property-in-css
+---------------------------------------------------------------
